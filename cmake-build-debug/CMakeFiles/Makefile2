@@ -73,10 +73,16 @@ CMAKE_BINARY_DIR = D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-
 
 # The main recursive "all" target.
 all: CMakeFiles/lc844.dir/all
+all: CMakeFiles/lc905.dir/all
+all: CMakeFiles/lc721.dir/all
 all: CMakeFiles/lc1410.dir/all
+all: CMakeFiles/lc906.dir/all
 all: CMakeFiles/lc1358.dir/all
 all: CMakeFiles/lc1411.dir/all
 all: CMakeFiles/lc907.dir/all
+all: CMakeFiles/lc42.dir/all
+all: CMakeFiles/lc84.dir/all
+all: CMakeFiles/lc739.dir/all
 
 .PHONY : all
 
@@ -87,10 +93,16 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/lc844.dir/clean
+clean: CMakeFiles/lc905.dir/clean
+clean: CMakeFiles/lc721.dir/clean
 clean: CMakeFiles/lc1410.dir/clean
+clean: CMakeFiles/lc906.dir/clean
 clean: CMakeFiles/lc1358.dir/clean
 clean: CMakeFiles/lc1411.dir/clean
 clean: CMakeFiles/lc907.dir/clean
+clean: CMakeFiles/lc42.dir/clean
+clean: CMakeFiles/lc84.dir/clean
+clean: CMakeFiles/lc739.dir/clean
 
 .PHONY : clean
 
@@ -101,7 +113,7 @@ clean: CMakeFiles/lc907.dir/clean
 CMakeFiles/lc844.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc844.dir\build.make CMakeFiles/lc844.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc844.dir\build.make CMakeFiles/lc844.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target lc844"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target lc844"
 .PHONY : CMakeFiles/lc844.dir/all
 
 # Build rule for subdir invocation for target.
@@ -120,6 +132,60 @@ lc844: CMakeFiles/lc844.dir/rule
 CMakeFiles/lc844.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc844.dir\build.make CMakeFiles/lc844.dir/clean
 .PHONY : CMakeFiles/lc844.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lc905.dir
+
+# All Build rule for target.
+CMakeFiles/lc905.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc905.dir\build.make CMakeFiles/lc905.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc905.dir\build.make CMakeFiles/lc905.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target lc905"
+.PHONY : CMakeFiles/lc905.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lc905.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lc905.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lc905.dir/rule
+
+# Convenience name for target.
+lc905: CMakeFiles/lc905.dir/rule
+
+.PHONY : lc905
+
+# clean rule for target.
+CMakeFiles/lc905.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc905.dir\build.make CMakeFiles/lc905.dir/clean
+.PHONY : CMakeFiles/lc905.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lc721.dir
+
+# All Build rule for target.
+CMakeFiles/lc721.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc721.dir\build.make CMakeFiles/lc721.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc721.dir\build.make CMakeFiles/lc721.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target lc721"
+.PHONY : CMakeFiles/lc721.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lc721.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lc721.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lc721.dir/rule
+
+# Convenience name for target.
+lc721: CMakeFiles/lc721.dir/rule
+
+.PHONY : lc721
+
+# clean rule for target.
+CMakeFiles/lc721.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc721.dir\build.make CMakeFiles/lc721.dir/clean
+.PHONY : CMakeFiles/lc721.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/lc1410.dir
@@ -147,6 +213,33 @@ lc1410: CMakeFiles/lc1410.dir/rule
 CMakeFiles/lc1410.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc1410.dir\build.make CMakeFiles/lc1410.dir/clean
 .PHONY : CMakeFiles/lc1410.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lc906.dir
+
+# All Build rule for target.
+CMakeFiles/lc906.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc906.dir\build.make CMakeFiles/lc906.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc906.dir\build.make CMakeFiles/lc906.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target lc906"
+.PHONY : CMakeFiles/lc906.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lc906.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lc906.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lc906.dir/rule
+
+# Convenience name for target.
+lc906: CMakeFiles/lc906.dir/rule
+
+.PHONY : lc906
+
+# clean rule for target.
+CMakeFiles/lc906.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc906.dir\build.make CMakeFiles/lc906.dir/clean
+.PHONY : CMakeFiles/lc906.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/lc1358.dir
@@ -209,7 +302,7 @@ CMakeFiles/lc1411.dir/clean:
 CMakeFiles/lc907.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc907.dir\build.make CMakeFiles/lc907.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc907.dir\build.make CMakeFiles/lc907.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target lc907"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target lc907"
 .PHONY : CMakeFiles/lc907.dir/all
 
 # Build rule for subdir invocation for target.
@@ -228,6 +321,87 @@ lc907: CMakeFiles/lc907.dir/rule
 CMakeFiles/lc907.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc907.dir\build.make CMakeFiles/lc907.dir/clean
 .PHONY : CMakeFiles/lc907.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lc42.dir
+
+# All Build rule for target.
+CMakeFiles/lc42.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc42.dir\build.make CMakeFiles/lc42.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc42.dir\build.make CMakeFiles/lc42.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target lc42"
+.PHONY : CMakeFiles/lc42.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lc42.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lc42.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lc42.dir/rule
+
+# Convenience name for target.
+lc42: CMakeFiles/lc42.dir/rule
+
+.PHONY : lc42
+
+# clean rule for target.
+CMakeFiles/lc42.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc42.dir\build.make CMakeFiles/lc42.dir/clean
+.PHONY : CMakeFiles/lc42.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lc84.dir
+
+# All Build rule for target.
+CMakeFiles/lc84.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc84.dir\build.make CMakeFiles/lc84.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc84.dir\build.make CMakeFiles/lc84.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target lc84"
+.PHONY : CMakeFiles/lc84.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lc84.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lc84.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lc84.dir/rule
+
+# Convenience name for target.
+lc84: CMakeFiles/lc84.dir/rule
+
+.PHONY : lc84
+
+# clean rule for target.
+CMakeFiles/lc84.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc84.dir\build.make CMakeFiles/lc84.dir/clean
+.PHONY : CMakeFiles/lc84.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lc739.dir
+
+# All Build rule for target.
+CMakeFiles/lc739.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc739.dir\build.make CMakeFiles/lc739.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc739.dir\build.make CMakeFiles/lc739.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target lc739"
+.PHONY : CMakeFiles/lc739.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lc739.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/lc739.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ProjectStudy\c++Project\leetcode-solution-c++\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/lc739.dir/rule
+
+# Convenience name for target.
+lc739: CMakeFiles/lc739.dir/rule
+
+.PHONY : lc739
+
+# clean rule for target.
+CMakeFiles/lc739.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc739.dir\build.make CMakeFiles/lc739.dir/clean
+.PHONY : CMakeFiles/lc739.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

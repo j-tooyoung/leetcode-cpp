@@ -143,6 +143,32 @@ lc844/fast:
 .PHONY : lc844/fast
 
 #=============================================================================
+# Target rules for targets named lc905
+
+# Build rule for target.
+lc905: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lc905
+.PHONY : lc905
+
+# fast build rule for target.
+lc905/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc905.dir\build.make CMakeFiles/lc905.dir/build
+.PHONY : lc905/fast
+
+#=============================================================================
+# Target rules for targets named lc721
+
+# Build rule for target.
+lc721: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lc721
+.PHONY : lc721
+
+# fast build rule for target.
+lc721/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc721.dir\build.make CMakeFiles/lc721.dir/build
+.PHONY : lc721/fast
+
+#=============================================================================
 # Target rules for targets named lc1410
 
 # Build rule for target.
@@ -154,6 +180,19 @@ lc1410: cmake_check_build_system
 lc1410/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc1410.dir\build.make CMakeFiles/lc1410.dir/build
 .PHONY : lc1410/fast
+
+#=============================================================================
+# Target rules for targets named lc906
+
+# Build rule for target.
+lc906: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lc906
+.PHONY : lc906
+
+# fast build rule for target.
+lc906/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc906.dir\build.make CMakeFiles/lc906.dir/build
+.PHONY : lc906/fast
 
 #=============================================================================
 # Target rules for targets named lc1358
@@ -193,6 +232,126 @@ lc907: cmake_check_build_system
 lc907/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc907.dir\build.make CMakeFiles/lc907.dir/build
 .PHONY : lc907/fast
+
+#=============================================================================
+# Target rules for targets named lc42
+
+# Build rule for target.
+lc42: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lc42
+.PHONY : lc42
+
+# fast build rule for target.
+lc42/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc42.dir\build.make CMakeFiles/lc42.dir/build
+.PHONY : lc42/fast
+
+#=============================================================================
+# Target rules for targets named lc84
+
+# Build rule for target.
+lc84: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lc84
+.PHONY : lc84
+
+# fast build rule for target.
+lc84/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc84.dir\build.make CMakeFiles/lc84.dir/build
+.PHONY : lc84/fast
+
+#=============================================================================
+# Target rules for targets named lc739
+
+# Build rule for target.
+lc739: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lc739
+.PHONY : lc739
+
+# fast build rule for target.
+lc739/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc739.dir\build.make CMakeFiles/lc739.dir/build
+.PHONY : lc739/fast
+
+Monotone-stack/lc42.obj: Monotone-stack/lc42.cpp.obj
+
+.PHONY : Monotone-stack/lc42.obj
+
+# target to build an object file
+Monotone-stack/lc42.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc42.dir\build.make CMakeFiles/lc42.dir/Monotone-stack/lc42.cpp.obj
+.PHONY : Monotone-stack/lc42.cpp.obj
+
+Monotone-stack/lc42.i: Monotone-stack/lc42.cpp.i
+
+.PHONY : Monotone-stack/lc42.i
+
+# target to preprocess a source file
+Monotone-stack/lc42.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc42.dir\build.make CMakeFiles/lc42.dir/Monotone-stack/lc42.cpp.i
+.PHONY : Monotone-stack/lc42.cpp.i
+
+Monotone-stack/lc42.s: Monotone-stack/lc42.cpp.s
+
+.PHONY : Monotone-stack/lc42.s
+
+# target to generate assembly for a file
+Monotone-stack/lc42.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc42.dir\build.make CMakeFiles/lc42.dir/Monotone-stack/lc42.cpp.s
+.PHONY : Monotone-stack/lc42.cpp.s
+
+Monotone-stack/lc739.obj: Monotone-stack/lc739.cpp.obj
+
+.PHONY : Monotone-stack/lc739.obj
+
+# target to build an object file
+Monotone-stack/lc739.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc739.dir\build.make CMakeFiles/lc739.dir/Monotone-stack/lc739.cpp.obj
+.PHONY : Monotone-stack/lc739.cpp.obj
+
+Monotone-stack/lc739.i: Monotone-stack/lc739.cpp.i
+
+.PHONY : Monotone-stack/lc739.i
+
+# target to preprocess a source file
+Monotone-stack/lc739.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc739.dir\build.make CMakeFiles/lc739.dir/Monotone-stack/lc739.cpp.i
+.PHONY : Monotone-stack/lc739.cpp.i
+
+Monotone-stack/lc739.s: Monotone-stack/lc739.cpp.s
+
+.PHONY : Monotone-stack/lc739.s
+
+# target to generate assembly for a file
+Monotone-stack/lc739.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc739.dir\build.make CMakeFiles/lc739.dir/Monotone-stack/lc739.cpp.s
+.PHONY : Monotone-stack/lc739.cpp.s
+
+Monotone-stack/lc84.obj: Monotone-stack/lc84.cpp.obj
+
+.PHONY : Monotone-stack/lc84.obj
+
+# target to build an object file
+Monotone-stack/lc84.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc84.dir\build.make CMakeFiles/lc84.dir/Monotone-stack/lc84.cpp.obj
+.PHONY : Monotone-stack/lc84.cpp.obj
+
+Monotone-stack/lc84.i: Monotone-stack/lc84.cpp.i
+
+.PHONY : Monotone-stack/lc84.i
+
+# target to preprocess a source file
+Monotone-stack/lc84.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc84.dir\build.make CMakeFiles/lc84.dir/Monotone-stack/lc84.cpp.i
+.PHONY : Monotone-stack/lc84.cpp.i
+
+Monotone-stack/lc84.s: Monotone-stack/lc84.cpp.s
+
+.PHONY : Monotone-stack/lc84.s
+
+# target to generate assembly for a file
+Monotone-stack/lc84.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc84.dir\build.make CMakeFiles/lc84.dir/Monotone-stack/lc84.cpp.s
+.PHONY : Monotone-stack/lc84.cpp.s
 
 Monotone-stack/lc907.obj: Monotone-stack/lc907.cpp.obj
 
@@ -275,6 +434,33 @@ hash/lc1358.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc1358.dir\build.make CMakeFiles/lc1358.dir/hash/lc1358.cpp.s
 .PHONY : hash/lc1358.cpp.s
 
+math/lc906.obj: math/lc906.cpp.obj
+
+.PHONY : math/lc906.obj
+
+# target to build an object file
+math/lc906.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc906.dir\build.make CMakeFiles/lc906.dir/math/lc906.cpp.obj
+.PHONY : math/lc906.cpp.obj
+
+math/lc906.i: math/lc906.cpp.i
+
+.PHONY : math/lc906.i
+
+# target to preprocess a source file
+math/lc906.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc906.dir\build.make CMakeFiles/lc906.dir/math/lc906.cpp.i
+.PHONY : math/lc906.cpp.i
+
+math/lc906.s: math/lc906.cpp.s
+
+.PHONY : math/lc906.s
+
+# target to generate assembly for a file
+math/lc906.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc906.dir\build.make CMakeFiles/lc906.dir/math/lc906.cpp.s
+.PHONY : math/lc906.cpp.s
+
 stack/lc844.obj: stack/lc844.cpp.obj
 
 .PHONY : stack/lc844.obj
@@ -329,6 +515,60 @@ string/lc1410.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc1410.dir\build.make CMakeFiles/lc1410.dir/string/lc1410.cpp.s
 .PHONY : string/lc1410.cpp.s
 
+twopointer/lc905.obj: twopointer/lc905.cpp.obj
+
+.PHONY : twopointer/lc905.obj
+
+# target to build an object file
+twopointer/lc905.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc905.dir\build.make CMakeFiles/lc905.dir/twopointer/lc905.cpp.obj
+.PHONY : twopointer/lc905.cpp.obj
+
+twopointer/lc905.i: twopointer/lc905.cpp.i
+
+.PHONY : twopointer/lc905.i
+
+# target to preprocess a source file
+twopointer/lc905.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc905.dir\build.make CMakeFiles/lc905.dir/twopointer/lc905.cpp.i
+.PHONY : twopointer/lc905.cpp.i
+
+twopointer/lc905.s: twopointer/lc905.cpp.s
+
+.PHONY : twopointer/lc905.s
+
+# target to generate assembly for a file
+twopointer/lc905.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc905.dir\build.make CMakeFiles/lc905.dir/twopointer/lc905.cpp.s
+.PHONY : twopointer/lc905.cpp.s
+
+unionfind/lc721.obj: unionfind/lc721.cpp.obj
+
+.PHONY : unionfind/lc721.obj
+
+# target to build an object file
+unionfind/lc721.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc721.dir\build.make CMakeFiles/lc721.dir/unionfind/lc721.cpp.obj
+.PHONY : unionfind/lc721.cpp.obj
+
+unionfind/lc721.i: unionfind/lc721.cpp.i
+
+.PHONY : unionfind/lc721.i
+
+# target to preprocess a source file
+unionfind/lc721.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc721.dir\build.make CMakeFiles/lc721.dir/unionfind/lc721.cpp.i
+.PHONY : unionfind/lc721.cpp.i
+
+unionfind/lc721.s: unionfind/lc721.cpp.s
+
+.PHONY : unionfind/lc721.s
+
+# target to generate assembly for a file
+unionfind/lc721.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lc721.dir\build.make CMakeFiles/lc721.dir/unionfind/lc721.cpp.s
+.PHONY : unionfind/lc721.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -340,8 +580,23 @@ help:
 	@echo ... lc1358
 	@echo ... lc1410
 	@echo ... lc1411
+	@echo ... lc42
+	@echo ... lc721
+	@echo ... lc739
+	@echo ... lc84
 	@echo ... lc844
+	@echo ... lc905
+	@echo ... lc906
 	@echo ... lc907
+	@echo ... Monotone-stack/lc42.obj
+	@echo ... Monotone-stack/lc42.i
+	@echo ... Monotone-stack/lc42.s
+	@echo ... Monotone-stack/lc739.obj
+	@echo ... Monotone-stack/lc739.i
+	@echo ... Monotone-stack/lc739.s
+	@echo ... Monotone-stack/lc84.obj
+	@echo ... Monotone-stack/lc84.i
+	@echo ... Monotone-stack/lc84.s
 	@echo ... Monotone-stack/lc907.obj
 	@echo ... Monotone-stack/lc907.i
 	@echo ... Monotone-stack/lc907.s
@@ -351,12 +606,21 @@ help:
 	@echo ... hash/lc1358.obj
 	@echo ... hash/lc1358.i
 	@echo ... hash/lc1358.s
+	@echo ... math/lc906.obj
+	@echo ... math/lc906.i
+	@echo ... math/lc906.s
 	@echo ... stack/lc844.obj
 	@echo ... stack/lc844.i
 	@echo ... stack/lc844.s
 	@echo ... string/lc1410.obj
 	@echo ... string/lc1410.i
 	@echo ... string/lc1410.s
+	@echo ... twopointer/lc905.obj
+	@echo ... twopointer/lc905.i
+	@echo ... twopointer/lc905.s
+	@echo ... unionfind/lc721.obj
+	@echo ... unionfind/lc721.i
+	@echo ... unionfind/lc721.s
 .PHONY : help
 
 

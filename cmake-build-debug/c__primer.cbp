@@ -17,16 +17,6 @@
 					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="lc844">
 				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc844.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
@@ -64,6 +54,90 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc844/fast"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc905">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc905.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc905"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc905/fast">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc905.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc905/fast"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc721">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc721.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc721"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc721/fast">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc721.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc721/fast"/>
 					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -111,11 +185,43 @@
 					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="lc906">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc906.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc906"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc906/fast">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc906.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc906/fast"/>
 					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -247,7 +353,162 @@
 					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lc42">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc42.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc42"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc42/fast">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc42.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc42/fast"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc84">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc84.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc84"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc84/fast">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc84.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc84/fast"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc739">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc739.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc739"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lc739/fast">
+				<Option output="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/lc739.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/qt/Tools/mingw730_32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 lc739/fast"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/qt/Tools/mingw730_32/bin/mingw32-make.exe -f &quot;D:/ProjectStudy/c++Project/leetcode-solution-c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/Monotone-stack/lc42.cpp">
+			<Option target="lc42"/>
+		</Unit>
+		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/Monotone-stack/lc739.cpp">
+			<Option target="lc739"/>
+		</Unit>
+		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/Monotone-stack/lc84.cpp">
+			<Option target="lc84"/>
+		</Unit>
 		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/Monotone-stack/lc907.cpp">
 			<Option target="lc907"/>
 		</Unit>
@@ -257,11 +518,20 @@
 		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/hash/lc1358.cpp">
 			<Option target="lc1358"/>
 		</Unit>
+		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/math/lc906.cpp">
+			<Option target="lc906"/>
+		</Unit>
 		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/stack/lc844.cpp">
 			<Option target="lc844"/>
 		</Unit>
 		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/string/lc1410.cpp">
 			<Option target="lc1410"/>
+		</Unit>
+		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/twopointer/lc905.cpp">
+			<Option target="lc905"/>
+		</Unit>
+		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/unionfind/lc721.cpp">
+			<Option target="lc721"/>
 		</Unit>
 		<Unit filename="D:/ProjectStudy/c++Project/leetcode-solution-c++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
