@@ -1,3 +1,0 @@
-"D:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lc1411.dir/objects.a
-E:\qt\Tools\mingw730_32\bin\ar.exe cr CMakeFiles\lc1411.dir/objects.a @CMakeFiles\lc1411.dir\objects1.rsp
-E:\qt\Tools\mingw730_32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\lc1411.dir/objects.a -Wl,--no-whole-archive  -o lc1411.exe -Wl,--out-implib,liblc1411.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lc1411.dir\linklibs.rsp
