@@ -15,15 +15,24 @@ public:
         if (k == 0) {
             return grid;
         }
-        vector<vector<int>> res;
-        int idx = row * col - k + 1;
-        int x = idx / col;
-        int y = idx % col;
-        int n = row * col;
+        deque<int> deque;
+
         for (int i = 0; i < row; ++i) {
             for (int j = 0; j < col; ++j) {
+                deque.emplace_back(grid[i][j]);
             }
         }
-        return res;
+        while (k--) {
+            int num = deque.back();
+            deque.emplace_front(num);
+            deque.pop_back();
+        }
+        size_t idx = 0;
+        for (int i = 0; i < row; ++i) {
+            for (int j = 0; j < col; ++j) {
+                grid[i][j] = deque.at(idx++);
+            }
+        }
+        return grid;
     }
 };
