@@ -1,13 +1,12 @@
 //
-// Created by tooyoung on 2021/2/1.
+// Created by tooyoung on 2021/2/3.
 //
 
 #include "bits/stdc++.h"
 using namespace std;
-
 class Solution {
 public:
-    int minMoves(vector<int>& nums, int limit) {
+    int tilingRectangle(int n, int m) {
 
     }
 };
