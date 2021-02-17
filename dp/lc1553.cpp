@@ -64,6 +64,32 @@ public:
         return ans;
     }
 
+    int minDays3(int n) {
+        queue<int> queue;
+        unordered_set<int> set;
+        // set.insert(n);
+        queue.push(n);
+        int ans = 0;
+        while (!queue.empty()) {
+            int num = queue.front();
+            queue.pop();
+            if (num == 0) {
+                return ans;
+            }
+            if (num % 2 == 0 && set.insert(num / 2).second) {
+                queue.push(num / 2);
+            }
+            if (num % 3 == 0 && set.insert(num / 3).second) {
+                queue.push(num / 3);
+            }
+            if (set.insert(num - 1).second) {
+                queue.push(num - 1);
+            }
+            ans++;
+        }
+        return ans;
+    }
+
 //    dfs
     int minDays2(int n) {
 
