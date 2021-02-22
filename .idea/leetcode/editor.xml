@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/tmp/leetcode/editor/cn/[1438]绝对差不超过限制的最长连续子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/tmp/leetcode/editor/cn/[1438]绝对差不超过限制的最长连续子数组.java" />
+              <option name="questionId" value="1549" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/tmp/leetcode/editor/cn/[1701]平均等待时间.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/tmp/leetcode/editor/cn/[1701]平均等待时间.java" />
+              <option name="questionId" value="1803" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
