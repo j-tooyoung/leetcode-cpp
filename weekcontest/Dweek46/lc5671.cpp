@@ -40,12 +40,7 @@ public:
                 if (newX < 0 || newX >= row || newY >= col || newY < 0 || isWater[newX][newY] ==1 || vis[newX][newY]) {
                     continue;
                 }
-                if (ans[newX][newY] < 0) {
-                    ans[newX][newY] = ans[x][y] + 1;
-                }else{
-                    ans[newX][newY] = min(ans[newX][newY], ans[x][y] + 1);
-                }
-
+                ans[newX][newY] = ans[x][y] + 1;
                 queue.emplace(newX, newY);
                 vis[newX][newY]=true;
             }
